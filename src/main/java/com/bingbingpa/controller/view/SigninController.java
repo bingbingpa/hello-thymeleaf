@@ -8,23 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * Sign in 처리
- * 
- * @author jeongdae
- */
 @Slf4j
 @Controller
 @RequestMapping("/sign")
 public class SigninController {
 	
-
-	/**
-	 * Sign in 페이지
-	 * @param request
-	 * @param model
-	 * @return
-	 */
 	@GetMapping("/signin")
 	public String signin(HttpServletRequest request, Model model) {
 
